@@ -8,3 +8,136 @@
 
 
 /* main index */
+main{
+    color:#000;
+    
+}
+.box-panel{
+    color: #fff;
+    position: relative;
+}
+.box-panel img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.panel-text{
+    width: 40rem;
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left: 25%;
+    font-size:3.5rem;
+    font-weight: bold;
+}
+.box-space{
+    height: max-content;
+    width: 100%;
+    background-color: #038112;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 3em;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.box-pop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.box-pop i{
+    font-size: 1.5em;
+}
+
+.box-protect{
+    margin-top:2em;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-protect .text{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-top: 5em;
+    margin-right:3em;
+    
+    
+}
+.text h1{
+    color: #45a643;
+    font-weight: bold;
+} 
+.text p{
+    margin-top: 1em;
+    font-weight: bold;
+}
+.text button{
+    margin-top: 1em;
+    width: max-content;
+    background-color: #45a643;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;    
+
+}
+.text button:hover{
+    background-color: #2b6b2a;
+}
+
+.box-protect img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, .2);
+}
+.box-join{
+    display: flex;
+    flex-direction: column;
+    margin-top:3em;
+    width:100%;
+    align-items: center;
+
+}
+.box-join h1{
+    color: #45a643;
+    font-weight: bold;
+}
+.box-join p{
+    width:30em;
+    text-align: center;
+}
+.box-advan{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 4em;
+
+}
+.advan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 1em 0 1em ;
+    border-right:1px solid #45a643;
+    border-left:1px solid #45a643;
+    
+}
+.advan h4{
+    color: #45a643;
+    font-weight: bold;
+}
+.advan p{
+    width:20em ;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+:root{
+    --main-color-bg:#45a643;
+    --main-color-degree-bg:#348732;
+    --main-color-darker-bg:#2b6b2a;
+    --text-white:#fff;
+}
+
+.box-panel{
+    width: 100%;
+    height: max-content;
+    background-color: #348732;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 2px rgb(218, 217, 217),-4px -4px 10px 2px rgb(206, 205, 205);
+    padding: 2em ;
+}
+.box-panel h1{
+    color: #fff;
+}
+.cont-img img{
+    width: 300px;
+    border-radius: 20px;
+    
+}
