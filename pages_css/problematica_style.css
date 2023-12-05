@@ -1,0 +1,164 @@
+:root{
+    --main-color-bg:#45a643;
+    --main-color-degree-bg:#348732;
+    --main-color-darker-bg:#2b6b2a;
+    --text-white:#fff;
+}
+
+.box-panel{
+    color: #fff;
+    position: relative;
+}
+.box-panel img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+/* .panel-text{
+    width: 40rem;
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left: 25%;
+    font-size:3.5rem;
+    font-weight: bold;
+} */
+
+
+.light-panel{
+    position: absolute;
+    background-color: #45a643af;
+    /* text-align: center; */
+    width:100%;
+    height: 5em;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.light-panel h1{
+    font-size: 5em;
+}
+.box-advan{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 4em;
+
+}
+.advan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 1em 0 1em ;
+    border-right:1px solid #45a643;
+    border-left:1px solid #45a643;
+    
+}
+.advan h4{
+    color: #45a643;
+    font-weight: bold;
+}
+.advan p{
+    width:20em ;
+    text-align: center;
+}
+.casos{
+    width:100%;
+    height: max-content;
+    background-color: #348732;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.casos h1{
+    color: #fff;
+    font-size: 2.5em;
+}
+.img-casos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-casos img{
+    width:30%;
+    margin: 1em;
+    border-radius: 10px;
+
+}
+
+ button{
+    margin-top: 1em;
+    width: max-content;
+    background-color: #45a643;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;    
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.more{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding:1em;
+}
+
+.box-protect{
+    margin-top:2em;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-protect .text{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-top: 5em;
+    margin-right:3em;
+    
+    
+}
+.text h1{
+    color: #45a643;
+    font-weight: bold;
+} 
+.text p{
+    margin-top: 1em;
+    font-weight: bold;
+}
+.text button{
+    margin-top: 1em;
+    width: max-content;
+    background-color: #45a643;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;    
+
+}
+.text button:hover{
+    background-color: #2b6b2a;
+}
+
+.box-protect img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, .2);
+    margin-right: 2em;
+}

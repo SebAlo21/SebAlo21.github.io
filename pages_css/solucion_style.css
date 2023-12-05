@@ -1,0 +1,50 @@
+:root{
+    --main-color-bg:#45a643;
+    --main-color-degree-bg:#348732;
+    --main-color-darker-bg:#2b6b2a;
+    --text-white:#fff;
+}
+
+
+.panel{
+    color: #45a643;
+
+}
+.panel h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.panel p{
+    font-size:1.5em;
+    color: #2b6b2a;
+    font-weight: bold;
+}
+.panel-text{
+    position: absolute;
+    top: 40%;
+    padding-left:2em;
+
+} 
+
+.prototype{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #2b6b2a;
+    padding-top: 2em;
+}
+
+.prototype .text h1{
+    padding-top:5em ;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+.prototype img{
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
