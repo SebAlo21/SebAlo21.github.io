@@ -47,4 +47,32 @@
     border-radius: 30px;
     margin-top: 5px;
 }
+.low-panel{
+    width: 100%;
+    height: max-content;
+    color: #fff;
+    background-color: #348732;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    /* box-shadow: 2px 10px 1px rgb(129, 128, 128) ; */
+    margin-bottom: 2em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.low-panel h1{
+    font-size: 5em;
+    letter-spacing: 10px;
 
+}
+.descrip{
+    color: #348732;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20em;
+    margin-top: 2em;
+
+}
