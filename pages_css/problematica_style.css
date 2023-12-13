@@ -162,3 +162,15 @@ a{
     box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, .2);
     margin-right: 2em;
 }
+.more_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%t;
+    justify-content: center;
+    align-items: center;
+}
+.more{
+    color: #45a643;
+    font-weight: bold;
+
+}

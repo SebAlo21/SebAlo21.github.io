@@ -66,6 +66,7 @@
     font-size: 5em;
     letter-spacing: 10px;
 
+
 }
 .descrip{
     color: #348732;
@@ -74,5 +75,16 @@
     text-align: center;
     padding: 0 20em;
     margin-top: 2em;
-
+    
+}
+.funcionamiento{
+    margin-top:2em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#348732;
+}
+.funcionamiento img{
+    width: 20%;
 }
